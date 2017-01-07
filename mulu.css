@@ -25,20 +25,16 @@ h1{
 }
 li{
   margin-top: 25px;
-  height: 30px;
   list-style: none;
   padding-left: 20px;
   border-radius: 5px;
-  border: 1px solid #0b78e8;
   overflow: hidden;
-}
-li:hover{
-  border: 1px solid #fff;
 }
 li:hover a{
   background-color: green;
   color:#fff;
   font-weight: 600;
+  border: 1px solid #fff;
 }
 a{
   background-color: yellow;
@@ -46,4 +42,8 @@ a{
   width: 350px;
   color:#000;
   text-decoration: none;
+  border: 1px solid #0b78e8;
+  line-height: 25px;
+  padding: 5px;
+  text-align: center;
 }
