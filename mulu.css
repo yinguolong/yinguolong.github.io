@@ -30,7 +30,6 @@ li{
   list-style: none;
   padding-left: 20px;
   border-radius: 5px;
-  width: 500px;
   border: 1px solid #0b78e8;
 }
 li:hover{
@@ -42,6 +41,8 @@ li:hover a{
   font-weight: 600;
 }
 a{
+  display: block;
+  width: 350px;
   color:#000;
   text-decoration: none;
 }
