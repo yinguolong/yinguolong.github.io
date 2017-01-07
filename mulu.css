@@ -25,12 +25,13 @@ h1{
 }
 li{
   background-color: yellow;
-  margin-top: 20px;
+  margin-top: 25px;
   height: 30px;
   list-style: none;
   padding-left: 20px;
   border-radius: 5px;
   border: 1px solid #0b78e8;
+  overflow: hidden;
 }
 li:hover{
   background-color: green;
