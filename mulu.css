@@ -24,7 +24,6 @@ h1{
   border-radius: 10px;
 }
 li{
-  background-color: yellow;
   margin-top: 25px;
   height: 30px;
   list-style: none;
@@ -34,14 +33,15 @@ li{
   overflow: hidden;
 }
 li:hover{
-  background-color: green;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
 }
 li:hover a{
+  background-color: green;
   color:#fff;
   font-weight: 600;
 }
 a{
+  background-color: yellow;
   display: block;
   width: 350px;
   color:#000;
